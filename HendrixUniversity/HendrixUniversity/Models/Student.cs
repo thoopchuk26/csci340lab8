@@ -22,9 +22,8 @@ namespace HendrixUniversity.Models
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         [Display(Name = "Enrollment Date")]
+        
         public DateTime EnrollmentDate { get; set; }
-        [Display(Name = "Full Name")]
-
         public int Age { get; set; }
         [Display(Name = "Age")]
         public string FullName
@@ -34,6 +33,7 @@ namespace HendrixUniversity.Models
                 return LastName + ", " + FirstMidName;
             }
         }
+        [Display(Name = "Full Name")]
 
         public ICollection<Enrollment> Enrollments { get; set; }
     }

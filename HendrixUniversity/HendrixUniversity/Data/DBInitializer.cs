@@ -19,7 +19,8 @@ namespace HendrixUniversity.Data
             {
                 FirstMidName = "Carson",
                 LastName = "Alexander",
-                EnrollmentDate = DateTime.Parse("2016-09-01")
+                EnrollmentDate = DateTime.Parse("2016-09-01"),
+                Age = 10
             };
 
             var alonso = new Student

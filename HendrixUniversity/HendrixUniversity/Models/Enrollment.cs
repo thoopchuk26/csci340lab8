@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations;
 
 namespace HendrixUniversity.Models
 {
     public enum Grade
     {
-        A, B, C, D, F
+        A, B, C, D, F, I, W
     }
 
     public class Enrollment
